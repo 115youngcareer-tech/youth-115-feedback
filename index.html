@@ -2,20 +2,43 @@
 <html lang="zh-TW">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="115年度青年就業達人班計畫-線上滿意度調查系統">
+  <meta name="author" content="115年度青年職涯領航計畫執行團隊">
   <title>115年度青年就業達人班計畫-線上回饋</title>
+  
   <link rel="icon" type="image/x-icon" href="https://ssl.gstatic.com/docs/spreadsheets/forms/favicon_qp2.png">
+  <link rel="shortcut icon" href="https://ssl.gstatic.com/docs/spreadsheets/forms/favicon_qp2.png">
+  
   <style>
-    body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; background-color: #f8f9fa; }
-    /* 位移技術：將 GAS 橫幅推到螢幕外 */
+    /* 移除所有預設間距，防止捲軸出現 */
+    body, html { 
+      margin: 0; 
+      padding: 0; 
+      height: 100%; 
+      width: 100%;
+      overflow: hidden; 
+      background-color: #f8f9fa; 
+    }
+
+    /* 封裝容器：物理位移技術將 GAS 頂部官方橫幅推到螢幕外 */
     .wrapper {
       position: absolute;
-      top: -45px; 
+      top: -45px; /* 推移高度 */
       left: 0;
       width: 100%;
       height: calc(100% + 45px);
     }
-    iframe { width: 100%; height: 100%; border: none; }
+
+    iframe { 
+      width: 100%; 
+      height: 100%; 
+      border: none; 
+      display: block;
+    }
   </style>
 </head>
 <body>
