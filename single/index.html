@@ -2,27 +2,26 @@
 <html lang="zh-TW">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>115年度青年就業達人班線上回饋</title>
   
   <link rel="icon" href="https://ssl.gstatic.com/docs/spreadsheets/forms/favicon_qp2.png" type="image/png">
 
   <style>
-    /* 這裡放入您提供的 CSS 邏輯 */
-    body, html { 
+    /* 滿版無邊框安全設計，防止行動裝置排版擠壓或按鈕被切掉 */
+    html, body { 
       margin: 0; 
       padding: 0; 
-      height: 100%; 
       width: 100%; 
+      height: 100%; 
       overflow: hidden; 
       background-color: #f3f4f6; 
     }
-    .wrapper { 
-      position: absolute; 
-      top: -25px; /* 向上移動 25px 以隱藏 GAS 橫幅 */
-      left: 0; 
+    .container { 
       width: 100%; 
-      height: calc(100% + 25px); 
+      height: 100%; 
+      -webkit-overflow-scrolling: touch; 
+      overflow-y: auto; 
     }
     iframe { 
       width: 100%; 
@@ -34,7 +33,7 @@
 </head>
 <body>
 
-  <div class="wrapper">
+  <div class="container">
     <iframe src="https://script.google.com/macros/s/AKfycbxn6bVbOFzFG_vI7zDq7x0MWxrQ0Fa2cggneZZrlEAMikEV5U3BmiF2LosDWkFxHWZVCw/exec">匯入中...</iframe>
   </div>
 
